@@ -1,0 +1,40 @@
+@import "./css/table.css";
+@import "./css/filter.css";
+@import "./css/divs.css";
+@import "./css/overlay.css";
+@import "./css/dropdownAndSelect.css";
+
+:root {
+    --bg: #f6f7fb;
+    --card: #ffffff;
+    --grid: #d7dce3;
+    --text: #111827;
+    --muted: #6b7280;
+    --radius: 14px;
+    --shadow: 0 10px 30px rgba(17, 24, 39, .08);
+
+    --time-col: 140px;
+    --header-h: 56px;
+    --slot-h: 56px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    background: var(--bg);
+    font-family: 'Exo 2', sans-serif;
+    color: var(--text);
+}
+
+/* ===== Timetable table only (no .sub-item/.dummy-item/.time styling) ===== */
+
+/* Put this on the container that holds the table (your `main`) if you want scroll */
+#main, #personal-table {
+    border-radius: 15px;
+    max-height: 80vh; /* or any height */
+    overflow: auto; /* enables vertical + horizontal scroll */
+}

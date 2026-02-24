@@ -1,0 +1,151 @@
+.overlay-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.55);
+    backdrop-filter: blur(6px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    z-index: 9999;
+}
+
+.overlay-backdrop.is-open {
+    display: flex;
+}
+
+.overlay-card {
+    width: min(680px, 100%);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    transform: translateY(10px) scale(0.98);
+    opacity: 0;
+    transition: transform .18s ease, opacity .18s ease;
+    font-family: inherit;
+}
+
+.overlay-backdrop.is-open .overlay-card {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+}
+
+.overlay-topbar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 16px;
+    background: rgba(248, 250, 252, 0.9);
+    border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+    position: relative;
+}
+
+.overlay-accent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: #64748b; /* fallback, can be overridden by JS */
+}
+
+.overlay-title {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #0f172a;
+}
+
+.overlay-subtitle {
+    padding-left: 10px;
+    margin-top: 4px;
+    font-size: 12px;
+    color: #64748b;
+}
+
+.overlay-close {
+    border: 0;
+    background: rgba(15, 23, 42, 0.06);
+    color: #0f172a;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    display: grid;
+    place-items: center;
+    transition: background .15s ease, transform .15s ease;
+}
+
+.overlay-close:hover {
+    background: rgba(15, 23, 42, 0.10);
+}
+
+.overlay-close:active {
+    transform: scale(0.98);
+}
+
+.overlay-body {
+    padding: 14px 16px 6px 16px;
+}
+
+.overlay-grid {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 10px 12px;
+}
+
+@media (max-width: 520px) {
+    .overlay-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.overlay-label {
+    font-size: 12px;
+    color: #64748b;
+    font-weight: 800;
+    letter-spacing: .2px;
+}
+
+.overlay-value {
+    font-size: 14px;
+    color: #0f172a;
+    font-weight: 600;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.overlay-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 12px 16px 16px 16px;
+}
+
+.overlay-btn {
+    border: 0;
+    cursor: pointer;
+    padding: 10px 14px;
+    border-radius: 12px;
+    font-weight: 800;
+    font-size: 13px;
+    background: rgba(15, 23, 42, 0.08);
+    color: #0f172a;
+    transition: background .15s ease;
+}
+
+.overlay-btn:hover {
+    background: rgba(15, 23, 42, 0.12);
+}
+
+/* Optional: prevent background scroll when open */
+body.modal-open {
+    overflow: hidden;
+}

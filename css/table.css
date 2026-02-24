@@ -1,0 +1,45 @@
+/* Table layout */
+table {
+    width: 100%;
+    /*min-width: 900px;*/
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+tr th {
+    background: #e5e7eb;
+    font-weight: 800;
+    letter-spacing: .3px;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 4 !important;
+    font-size: 13px;
+
+    height: 50px;
+    padding: 12px 10px;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 0, 0, .10);
+    box-shadow: 0 8px 18px rgba(17, 24, 39, .08);
+}
+
+/* Body cells */
+tbody td {
+    border: 1px solid rgba(0, 0, 0, .10);
+    background: #ffffff;
+    box-shadow: 0 8px 18px rgba(17, 24, 39, .06);
+    overflow: hidden;
+    height: 70px !important;
+}
+
+/* Make table feel less cramped on small screens */
+@media (max-width: 900px) {
+    table {
+        border-spacing: 8px;
+        min-width: 760px;
+    }
+
+    td {
+        padding: 8px;
+    }
+}

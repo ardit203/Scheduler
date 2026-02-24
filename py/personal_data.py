@@ -1,6 +1,7 @@
 # Study Programs -- change to your choice
 target_classes = sorted([
-    "2г-ССП",
+    "1г-ССП",
+    "2г-ССП"
 
     "3г-ПИТ",
     "4г-ПИТ",
@@ -14,16 +15,8 @@ target_classes = sorted([
     "4г-СИИС",
 
     "3y-SEIS",
-    "1y-SEIS",
     "4y-SEIS",
 ])
-
-# classes that will appear with their color in the schedule
-target_main_classes = [
-    "3y-SEIS",
-    "4y-SEIS",
-    # "4г-ПИТ",
-]
 
 # Subjects -- change to your choice
 target_subjects = {
@@ -33,33 +26,20 @@ target_subjects = {
     "Континуирана интеграција и испорака": {"color": "#8DC075", "short_name": "КИИ"},  # DevOps
     "Виртуелна реалност": {"color": "#4845CA", "short_name": "ВР"},  # VR,
     "Мобилни апликации": {"color": "#539DCC", "short_name": "МА"},  # MA
-
-    # "Математика 2 / Дискретна математика": {"Color": "#999999", "Short name": "ДМ"},
-    # "Дизајн на интеракцијата човек-компјутер": {"Color": "#999999", "Short name": "ДНИЧК"},
 }
 
-# Labs -- Place for labs, later
+# Labs -- Place for labs, later / structure needs to be same
 target_labs = [
     # {
-    #     "Day": "Понеделник",
-    #     "Day code": 0,
-    #     "Start period": 2,
-    #     "Duration (periods)": 2,
-    #     "Time": "10:00-11:45",
-    #     "Periods": [2, 3],
-    #     "Subject": "Интегрирани системи (лаб)",
-    #     "Classes": "3y-SEIS",
-    #     "Classrooms": "Лаб 215",
-    # },
-    # {
-    #     "Day": "Вторник",
-    #     "Day code": 1,
-    #     "Start period": 11,
-    #     "Duration (periods)": 2,
-    #     "Time": "18:00-19:45",
-    #     "Periods": [11, 12],
-    #     "Classes": "3y-SEIS",
-    #     "Subject": "Мобилни апликации (лаб)",
-    #     "Classrooms": "Лаб 2",
+    #     "day": "Понеделник", ----/ day
+    #     "day_code": 0, ----/ 0 -> Понеделник, 1 -: Вторник, ...
+    #     "start_period": 2, ----/ period 0 -> 8:00, period 1 -> 9:00, ...
+    #     "duration_periods": 2, ----/ how many periods
+    #     "time": "10:00-11:45",
+    #     "periods": [2, 3], ----/ which periods
+    #     "subject": "Интегрирани системи (лаб)",
+    #     "teachers": teacher_names,
+    #     "classes": "3y-SEIS",
+    #     "classroom": "Лаб 215",
     # }
 ]

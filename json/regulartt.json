@@ -36890,8 +36890,8 @@
                       "bold": false,
                       "italic": false,
                       "underline": false,
-                      "autohide": false,
-                      "name_col": ""
+                      "name_col": "",
+                      "autohide": false
                     },
                     "classrooms": {
                       "enabled": false,
@@ -36912,7 +36912,7 @@
                       "bold": false,
                       "italic": false,
                       "underline": false,
-                      "autohide": true,
+                      "autohide": false,
                       "name_col": ""
                     },
                     "classes": {
@@ -37095,8 +37095,8 @@
                       "bold": false,
                       "italic": false,
                       "underline": false,
-                      "autohide": false,
-                      "name_col": ""
+                      "name_col": "",
+                      "autohide": false
                     },
                     "classrooms": {
                       "enabled": false,
@@ -37106,7 +37106,7 @@
                       "bold": false,
                       "italic": false,
                       "underline": false,
-                      "autohide": true,
+                      "autohide": false,
                       "name_col": ""
                     },
                     "groupnames": {
@@ -38122,8 +38122,8 @@
                       "bold": false,
                       "italic": false,
                       "underline": false,
-                      "name_col": "",
-                      "autohide": false
+                      "autohide": false,
+                      "name_col": ""
                     },
                     "classrooms": {
                       "enabled": false,
@@ -38144,7 +38144,7 @@
                       "bold": false,
                       "italic": false,
                       "underline": false,
-                      "autohide": false,
+                      "autohide": true,
                       "name_col": ""
                     },
                     "classes": {
@@ -38413,8 +38413,8 @@
                       "bold": false,
                       "italic": false,
                       "underline": false,
-                      "name_col": "",
-                      "autohide": false
+                      "autohide": false,
+                      "name_col": ""
                     },
                     "classrooms": {
                       "enabled": false,
@@ -38424,7 +38424,7 @@
                       "bold": false,
                       "italic": false,
                       "underline": false,
-                      "autohide": true,
+                      "autohide": false,
                       "name_col": ""
                     },
                     "groupnames": {
@@ -38435,7 +38435,7 @@
                       "bold": false,
                       "italic": false,
                       "underline": false,
-                      "autohide": false,
+                      "autohide": true,
                       "name_col": ""
                     },
                     "classes": {
@@ -38638,8 +38638,8 @@
                       "bold": false,
                       "italic": false,
                       "underline": false,
-                      "name_col": "",
-                      "autohide": false
+                      "autohide": false,
+                      "name_col": ""
                     },
                     "classrooms": {
                       "enabled": false,
@@ -38649,7 +38649,7 @@
                       "bold": false,
                       "italic": false,
                       "underline": false,
-                      "autohide": true,
+                      "autohide": false,
                       "name_col": ""
                     },
                     "groupnames": {

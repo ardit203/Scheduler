@@ -29,7 +29,7 @@ target_subjects = {
 target_labs = [
     # {
     #     "day": "Понеделник", ----/ day
-    #     "day_code": 0, ----/ 0 -> Понеделник, 1 -: Вторник, ...
+    #     "day_code": 0, ----/ 0 -> Понеделник, 1 -> Вторник, ...
     #     "start_period": 2, ----/ period 0 -> 8:00, period 1 -> 9:00, ...
     #     "duration_periods": 2, ----/ how many periods
     #     "time": "10:00-11:45",
@@ -38,5 +38,41 @@ target_labs = [
     #     "teachers": teacher_names,
     #     "classes": "3y-SEIS",
     #     "classroom": "Лаб 215",
-    # }
+    # },
+    {
+        "day": "Понеделник",
+        "day_code": 0,
+        "start_period": 7,
+        "duration_periods": 2,
+        "time": "15:00-16:45",
+        "periods": [7, 8],
+        "subject": "Управување со ИКТ проекти (лаб)",
+        "teachers": "",
+        "classes": "4y-SEIS",
+        "classroom": "Лаб 13",
+    },
+    # {
+    #     "day": "Понеделник",
+    #     "day_code": 0,
+    #     "start_period": 7,
+    #     "duration_periods": 2,
+    #     "time": "15:00-16:45",
+    #     "periods": [7, 8],
+    #     "subject": "Електронска и мобилна трговија (лаб)",
+    #     "teachers": "",
+    #     "classes": "3y-SEIS",
+    #     "classroom": "Лаб 13",
+    # },
+    # {
+    #     "day": "Понеделник",
+    #     "day_code": 0,
+    #     "start_period": 7,
+    #     "duration_periods": 2,
+    #     "time": "15:00-16:45",
+    #     "periods": [7, 8],
+    #     "subject": "Интегрирани системи (лаб)",
+    #     "teachers": "",
+    #     "classes": "3y-SEIS",
+    #     "classroom": "Лаб 13",
+    # },
 ]

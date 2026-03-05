@@ -22,7 +22,8 @@ target_subjects = {
     "Електронска и мобилна трговија": {"color": "#D79F62", "short_name": "ЕМТ"},  # EMT
     "Континуирана интеграција и испорака": {"color": "#8DC075", "short_name": "КИИ"},  # DevOps
     "Виртуелна реалност": {"color": "#4845CA", "short_name": "ВР"},  # VR,
-    "Мобилни апликации": {"color": "#539DCC", "short_name": "МА"},  # MA
+    # "Мобилни апликации": {"color": "#539DCC", "short_name": "МА"},  # MA
+    "Сервисно ориентирани архитектури": {"color": "#539DCC", "short_name": "СОА"},  # SOA
 }
 
 # Labs -- Place for labs, later / structure needs to be same
@@ -63,16 +64,16 @@ target_labs = [
     #     "classes": "3y-SEIS",
     #     "classroom": "Лаб 13",
     # },
-    # {
-    #     "day": "Понеделник",
-    #     "day_code": 0,
-    #     "start_period": 7,
-    #     "duration_periods": 2,
-    #     "time": "15:00-16:45",
-    #     "periods": [7, 8],
-    #     "subject": "Интегрирани системи (лаб)",
-    #     "teachers": "",
-    #     "classes": "3y-SEIS",
-    #     "classroom": "Лаб 13",
-    # },
+    {
+        "day": "Среда",
+        "day_code": 2,
+        "start_period": 0,
+        "duration_periods": 2,
+        "time": "08:00-09:45",
+        "periods": [0, 1],
+        "subject": "Интегрирани системи (лаб)",
+        "teachers": "",
+        "classes": "3y-SEIS",
+        "classroom": "Лаб 13",
+    },
 ]

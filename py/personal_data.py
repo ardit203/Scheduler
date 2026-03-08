@@ -1,6 +1,6 @@
 # Study Programs -- change to your choice
 target_classes = sorted([
-    "1г-ССП",
+    # "1г-ССП",
     "3г-ПИТ",
     "4г-ПИТ",
 

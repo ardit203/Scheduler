@@ -1,5 +1,6 @@
 # Study Programs -- change to your choice
 target_classes = sorted([
+    "1г-ССП",
     "3г-ПИТ",
     "4г-ПИТ",
 
@@ -62,7 +63,7 @@ target_labs = [
         "subject": "Електронска и мобилна трговија (лаб)",
         "teachers": "",
         "classes": "3y-SEIS",
-        "classroom": "Лаб 13",
+        "classroom": "Лаб 3",
     },
     {
         "day": "Среда",

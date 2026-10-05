@@ -1,30 +1,20 @@
 # Study Programs -- change to your choice
 target_classes = sorted([
-    # "1г-ССП",
-    "3г-ПИТ",
-    "4г-ПИТ",
-
-    "3г-ИМБ",
+    "4г-ПИТ-1",
+    "4г-ПИТ-2",
     "4г-ИМБ",
 
-    "3г-КН",
+    "4г-КН",
 
-    "3г-СИИС",
     "4г-СИИС",
 
-    "3y-SEIS",
     "4y-SEIS",
 ])
 
 # Subjects -- change to your choice
 target_subjects = {
-    "Управување со ИКТ проекти": {"color": "#B7B369", "short_name": "ИКТ"},  # IKT
-    "Интегрирани системи": {"color": "#C667E5", "short_name": "ИС"},  # IS
-    "Електронска и мобилна трговија": {"color": "#D79F62", "short_name": "ЕМТ"},  # EMT
-    "Континуирана интеграција и испорака": {"color": "#8DC075", "short_name": "КИИ"},  # DevOps
-    "Виртуелна реалност": {"color": "#4845CA", "short_name": "ВР"},  # VR,
-    # "Мобилни апликации": {"color": "#539DCC", "short_name": "МА"},  # MA
-    "Сервисно ориентирани архитектури": {"color": "#539DCC", "short_name": "СОА"},  # SOA
+    "Иновации во ИКТ": {"color": "#B7B369", "short_name": "ИКТ"},  # IKT
+    "Мобилни информациски системи": {"color": "#C667E5", "short_name": "МИС"},  # IS
 }
 
 # Labs -- Place for labs, later / structure needs to be same
@@ -41,40 +31,43 @@ target_labs = [
     #     "classes": "3y-SEIS",
     #     "classroom": "Лаб 215",
     # },
-    {
-        "day": "Понеделник",
-        "day_code": 0,
-        "start_period": 7,
-        "duration_periods": 2,
-        "time": "15:00-16:45",
-        "periods": [7, 8],
-        "subject": "Управување со ИКТ проекти (лаб)",
-        "teachers": "",
-        "classes": "4y-SEIS",
-        "classroom": "Лаб 13",
-    },
-    {
-        "day": "Понеделник",
-        "day_code": 0,
-        "start_period": 1,
-        "duration_periods": 2,
-        "time": "09:00-10:45",
-        "periods": [1, 2],
-        "subject": "Електронска и мобилна трговија (лаб)",
-        "teachers": "",
-        "classes": "3y-SEIS",
-        "classroom": "Лаб 3",
-    },
-    {
-        "day": "Среда",
-        "day_code": 2,
-        "start_period": 0,
-        "duration_periods": 2,
-        "time": "08:00-09:45",
-        "periods": [0, 1],
-        "subject": "Интегрирани системи (лаб)",
-        "teachers": "",
-        "classes": "3y-SEIS",
-        "classroom": "Лаб 13",
-    },
+    # {
+    #     "day": "Понеделник",
+    #     "day_code": 0,
+    #     "start_period": 7,
+    #     "duration_periods": 2,
+    #     "time": "15:00-16:45",
+    #     "periods": [7, 8],
+    #     "subject": "Управување со ИКТ проекти (лаб)",
+    #     "teachers": "",
+    #     "classes": "4y-SEIS",
+    #     "classroom": "Лаб 13",
+    # },
+    # {
+    #     "day": "Понеделник",
+    #     "day_code": 0,
+    #     "start_period": 1,
+    #     "duration_periods": 2,
+    #     "time": "09:00-10:45",
+    #     "periods": [1, 2],
+    #     "subject": "Електронска и мобилна трговија (лаб)",
+    #     "teachers": "",
+    #     "classes": "3y-SEIS",
+    #     "classroom": "Лаб 3",
+    # },
+    # {
+    #     "day": "Среда",
+    #     "day_code": 2,
+    #     "start_period": 0,
+    #     "duration_periods": 2,
+    #     "time": "08:00-09:45",
+    #     "periods": [0, 1],
+    #     "subject": "Интегрирани системи (лаб)",
+    #     "teachers": "",
+    #     "classes": "3y-SEIS",
+    #     "classroom": "Лаб 13",
+    # },
 ]
+
+# Request number
+request_number = "30"

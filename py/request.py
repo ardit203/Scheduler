@@ -1,5 +1,6 @@
 import json
 import requests
+from .personal_data import request_number
 
 
 def main():
@@ -7,7 +8,7 @@ def main():
     params = {"__func": "regularttGetData"}
 
     payload = {
-        "__args": [None, "28"],
+        "__args": [None, "30"],
         "__gsh": "00000000"
     }
 
